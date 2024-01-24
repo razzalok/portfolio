@@ -11,23 +11,36 @@ import Footer from "./components/Footer";
 function App() {
   const componentRefAbout = useRef<HTMLDivElement>(null);
   const componentRefExperience = useRef<HTMLDivElement>(null);
+  const componentRefProjects = useRef<HTMLDivElement>(null);
+  const componentRefContact = useRef<HTMLDivElement>(null);
 
   return (
     <>
       <Nav
         targetRef={componentRefAbout}
         targetRefExp={componentRefExperience}
+        targetRefProject={componentRefProjects}
+        targetRefContact={componentRefContact}
       />
-      <Profile />
+      <Profile targetRefContact={componentRefContact} />
       <div ref={componentRefAbout}>
         <Aboutus />
       </div>
       <div ref={componentRefExperience}>
         <Experience />
       </div>
-      <Projects />
-      <Contact />
-      <Footer />
+      <div ref={componentRefProjects}>
+        <Projects />
+      </div>
+      <div ref={componentRefContact}>
+        <Contact />
+      </div>
+      <Footer
+        targetRef={componentRefAbout}
+        targetRefExp={componentRefExperience}
+        targetRefProject={componentRefProjects}
+        targetRefContact={componentRefContact}
+      />
     </>
   );
 }

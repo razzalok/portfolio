@@ -14,20 +14,22 @@ const Projects = () => {
             <div className="article-container">
               <img src={project_1} alt="Project 1" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">Meal App</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {}}
+                onClick={() => {
+                  window.open("https://github.com/razzalok/Mealapp");
+                }}
               >
                 Github
               </button>
-              <button
+              {/* <button
                 className="btn btn-color-2 project-btn"
                 onClick={() => {}}
               >
                 Live Demo
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="details-container color-container">

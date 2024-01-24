@@ -19,7 +19,8 @@ const Aboutus = () => {
               <img src={experience} alt="Experience icon" className="icon" />
               <h3>Experience</h3>
               <p>
-                2+ years <br />
+                06+ Months
+                <br />
                 Frontend Development
               </p>
             </div>
@@ -27,20 +28,22 @@ const Aboutus = () => {
               <img src={education} alt="Education icon" className="icon" />
               <h3>Education</h3>
               <p>
-                B.Sc. Bachelors Degree
+                B.Sc. (Information Technology) Bachelors Degree
                 <br />
-                M.Sc. Masters Degree
+                M.C.A Masters Degree
               </p>
             </div>
           </div>
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Hi there! I'm Alok Raj, a dedicated professional with a Masters in
+              Computer Application. My expertise lies in the MERN stack, where
+              I've honed my skills in MongoDB, Express.js, React, and Node.js. I
+              bring six months of valuable experience as a frontend developer
+              specializing in React and React Native. Passionate about crafting
+              user-friendly interfaces and leveraging the latest technologies,
+              I'm committed to delivering exceptional software solutions that
+              seamlessly blend innovation and functionality.
             </p>
           </div>
         </div>

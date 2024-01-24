@@ -29,7 +29,14 @@ const Experience = () => {
               <article>
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
-                  <h3>SASS</h3>
+                  <h3>Tailwind Css</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src={checkmark} alt="Experience icon" className="icon" />
+                <div>
+                  <h3>Bootstrap Css</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -37,39 +44,47 @@ const Experience = () => {
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src={checkmark} alt="Experience icon" className="icon" />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>React Redux Toolkit</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src={checkmark} alt="Experience icon" className="icon" />
+                <div>
+                  <h3>React Native</h3>
+                  <p>Basic</p>
                 </div>
               </article>
             </div>
           </div>
           <div className="details-container">
-            <h2 className="experience-sub-title">Frontend Development</h2>
+            <h2 className="experience-sub-title">Backend Development</h2>
             <div className="article-container">
               <article>
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src={checkmark} alt="Experience icon" className="icon" />
-                <div>
-                  <h3>Node JS</h3>
+                  <h3>Node Js</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -77,6 +92,20 @@ const Experience = () => {
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src={checkmark} alt="Experience icon" className="icon" />
+                <div>
+                  <h3>Mongo DB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src={checkmark} alt="Experience icon" className="icon" />
+                <div>
+                  <h3>My SQL</h3>
                   <p>Intermediate</p>
                 </div>
               </article>

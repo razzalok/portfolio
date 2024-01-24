@@ -2,13 +2,33 @@ import React, { FC } from "react";
 interface ScrollToComponentProps {
   targetRef: React.RefObject<HTMLDivElement>;
   targetRefExp: React.RefObject<HTMLDivElement>;
+  targetRefProject: React.RefObject<HTMLDivElement>;
+  targetRefContact: React.RefObject<HTMLDivElement>;
 }
-const Nav: FC<ScrollToComponentProps> = ({ targetRef, targetRefExp }) => {
+const Nav: FC<ScrollToComponentProps> = ({
+  targetRef,
+  targetRefExp,
+  targetRefProject,
+  targetRefContact,
+}) => {
   const handleClick = () => {
     targetRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
   const handleClickExp = () => {
     targetRefExp.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
+  const handleClickProject = () => {
+    targetRefProject.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+  const handleClickContact = () => {
+    targetRefContact.current?.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
@@ -30,10 +50,14 @@ const Nav: FC<ScrollToComponentProps> = ({ targetRef, targetRefExp }) => {
               </div>
             </li>
             <li>
-              <div className="nav-items">Projects</div>
+              <div className="nav-items" onClick={handleClickProject}>
+                Projects
+              </div>
             </li>
             <li>
-              <div className="nav-items">Contact</div>
+              <div className="nav-items" onClick={handleClickContact}>
+                Contact
+              </div>
             </li>
           </ul>
         </div>

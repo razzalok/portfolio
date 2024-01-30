@@ -24,12 +24,12 @@ const Projects = () => {
               >
                 Github
               </button>
-              {/* <button
+              <button
                 className="btn btn-color-2 project-btn"
                 onClick={() => {}}
               >
                 Live Demo
-              </button> */}
+              </button>
             </div>
           </div>
           <div className="details-container color-container">

@@ -372,8 +372,8 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-  position: relative !important;
-  margin-top: 435px;
+  position: absolute !important;
+  /* margin-top: 450px; */
 }
 
 .color-container {

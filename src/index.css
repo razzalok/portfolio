@@ -306,7 +306,7 @@ section {
 .arrow {
   position: absolute !important;
   right: -5rem !important;
-  bottom: 2.5rem !important;
+  /* bottom: 2.5rem !important; */
 }
 
 .details-container {
